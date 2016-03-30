@@ -1,0 +1,240 @@
+Subject: 数据仓库入库报告(2015-12-30)
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Disposition: inline
+
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <style type="text/css">
+	caption {
+		font-size:20px;
+		font-weight:bolder;
+	}
+  </style>
+ </head>
+ <body>
+ <table border="3" align="center">
+ <caption>
+   数据仓库入库报告(2015-12-30)
+ </caption>
+<tr bgcolor="CornflowerBlue" >
+<td>库.表</td>
+<td>昨日入库值</td>
+<td>平均值</td>
+<td>状态</td>
+<td>库表含义</td>
+</tr>
+
+<tr>
+<td>cig_dw.ods_bitauto_website_d_pc</td>
+<td>27445382</td>
+<td>20563274</td>
+<td>正确</td>
+<td>易车网pc端日志</td>
+</tr>
+
+<tr>
+<td>cig_dw.ods_bitauto_website_d_mobile</td>
+<td>26140913</td>
+<td>20018756</td>
+<td>正确</td>
+<td>易车网移动端日志（浏览器的,非app）</td>
+</tr>
+
+<tr>
+<td>auto2.tool_model_info_day</td>
+<td>1460</td>
+<td>1458</td>
+<td>正确</td>
+<td>车型信息表</td>
+</tr>
+
+<tr>
+<td>auto2.tool_city_info</td>
+<td>327</td>
+<td>327</td>
+<td>正确</td>
+<td>省份城市表</td>
+</tr>
+
+<tr>
+<td>auto2.tool_style_info_day</td>
+<td>37340</td>
+<td>37340</td>
+<td>正确</td>
+<td>车款信息表</td>
+</tr>
+
+<tr>
+<td>mobile_dw.stage_mobile_bjdq_hdcarpk_d</td>
+<td>144169</td>
+<td>159548</td>
+<td>正确</td>
+<td>报价大全车型对比日志</td>
+</tr>
+
+<tr>
+<td>mobile_dw.stage_mobile_bjdq_event_d</td>
+<td>3416717</td>
+<td>3688595</td>
+<td>正确</td>
+<td>报价大全事件日志</td>
+</tr>
+
+<tr>
+<td>mobile_dw.stage_mobile_bjdq_start_d</td>
+<td>2483739</td>
+<td>2463530</td>
+<td>正确</td>
+<td>报价大全启动日志</td>
+</tr>
+
+<tr>
+<td>mobile_dw.stage_mobile_bjdq_ad_d</td>
+<td>14806575</td>
+<td>28267071</td>
+<td>错误</td>
+<td>报价大全广告日志</td>
+</tr>
+
+<tr>
+<td>mobile_dw.stage_mobile_bjdq_pv_d</td>
+<td>97256137</td>
+<td>96978977</td>
+<td>正确</td>
+<td>报价大全页面访问日志</td>
+</tr>
+
+<tr>
+<td>mobile_dw.stage_mobile_bjdq_d</td>
+<td>356529573</td>
+<td>390293176</td>
+<td>正确</td>
+<td>报价大全全量日志</td>
+</tr>
+
+<tr>
+<td>leads_cookie.leads</td>
+<td>0</td>
+<td>162695</td>
+<td>错误</td>
+<td>pc端线索表</td>
+</tr>
+
+<tr>
+<td>leads_cookie.leads_mobile</td>
+<td>79042</td>
+<td>75585</td>
+<td>正确</td>
+<td>移动端线索表</td>
+</tr>
+
+<tr>
+<td>leads_cookie.cookie_map</td>
+<td>45413481</td>
+<td>17229605</td>
+<td>正确</td>
+<td>cookies映射（用户中心和网站cookies的映射）</td>
+</tr>
+
+<tr>
+<td>leads_cookie.cookie_merge</td>
+<td>0</td>
+<td>4054028</td>
+<td>错误</td>
+<td>cookies映射取唯一</td>
+</tr>
+
+<tr>
+<td>leads_cookie.leads_map</td>
+<td>0</td>
+<td>313936</td>
+<td>错误</td>
+<td>线索和cookies的映射</td>
+</tr>
+
+<tr>
+<td>mobile_dw.stage_mobile_yiche_article_d</td>
+<td>0</td>
+<td>0</td>
+<td>正确</td>
+<td>易车app文章表</td>
+</tr>
+
+<tr>
+<td>mobile_dw.stage_mobile_yiche_d</td>
+<td>11648321</td>
+<td>11582552</td>
+<td>正确</td>
+<td>易车app全量表</td>
+</tr>
+
+<tr>
+<td>mobile_dw.stage_mobile_yiche_info_d</td>
+<td>14575265</td>
+<td>13022886</td>
+<td>正确</td>
+<td>易车app信息表</td>
+</tr>
+
+<tr>
+<td>mobile_dw.stage_mobile_yiche_type_d</td>
+<td>17139721</td>
+<td>16771570</td>
+<td>正确</td>
+<td>易车app类型表</td>
+</tr>
+
+</table>
+
+<table border="3" align="center" width="100%" style="table-layout:fixed;word-break:break-all" >
+ <caption>
+   最近一周
+ </caption>
+ <tr bgcolor="CornflowerBlue">
+ <td style="word-break: keep-all">date</td>
+ <td>no data table</td>
+ <td>error data table</td>
+ </tr>
+ <tr>
+ <td width="70" style="word-break: keep-all">2015-12-30</td>
+ <td>mobile_dw.stage_mobile_yiche_article_d,leads_cookie.cookie_merge,leads_cookie.leads_map,leads_cookie.leads</td>
+ <td>mobile_dw.stage_mobile_bjdq_ad_d</td>
+ </tr>
+ <tr>
+ <td style="word-break: keep-all">2015-12-29</td>
+ <td>mobile_dw.stage_mobile_yiche_article_d,leads_cookie.cookie_merge</td>
+ <td>leads_cookie.cookie_map,leads_cookie.leads_map,leads_cookie.leads</td>
+ </tr>
+ <tr>
+ <td style="word-break: keep-all">2015-12-28</td>
+ <td>mobile_dw.stage_mobile_yiche_article_d</td>
+ <td>leads_cookie.cookie_map,leads_cookie.cookie_merge</td>
+ </tr>
+ <tr>
+ <td style="word-break: keep-all">2015-12-27</td>
+ <td>mobile_dw.stage_mobile_yiche_article_d,leads_cookie.cookie_map,mobile_dw.stage_mobile_yiche_type_d,leads_cookie.cookie_merge,mobile_dw.stage_mobile_yiche_d,mobile_dw.stage_mobile_yiche_info_d</td>
+ <td>cig_dw.ods_bitauto_website_d_pc</td>
+ </tr>
+ <tr>
+ <td style="word-break: keep-all">2015-12-26</td>
+ <td>mobile_dw.stage_mobile_yiche_article_d</td>
+ <td>leads_cookie.cookie_map,leads_cookie.cookie_merge</td>
+ </tr>
+ <tr>
+ <td style="word-break: keep-all">2015-12-25</td>
+ <td>mobile_dw.stage_mobile_yiche_article_d</td>
+ <td>leads_cookie.cookie_map,cig_dw.ods_bitauto_website_d_pc,cig_dw.ods_bitauto_website_d_mobile,leads_cookie.cookie_merge</td>
+ </tr>
+ <tr>
+ <td style="word-break: keep-all">2015-12-24</td>
+ <td>mobile_dw.stage_mobile_yiche_article_d</td>
+ <td>leads_cookie.cookie_map,cig_dw.ods_bitauto_website_d_pc,cig_dw.ods_bitauto_website_d_mobile,leads_cookie.cookie_merge,leads_cookie.leads_map</td>
+ </tr>
+</table>
+
+ </body>
+</html>
+
