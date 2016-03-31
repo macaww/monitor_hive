@@ -1,7 +1,7 @@
 #!/bin/env bash
 
-[ $# -ne 1 -o ! -f "$1" ] && { echo "usage: $0 [INPUT_HQL file]";exit;}
 source ./environment.sh
+[ $# -ne 1 -o ! -f "$1" ] && { echo "usage: $0 [INPUT_HQL file]";exit;}
 YESTERDAY=$(date +%Y-%m-%d --date '1 days ago')
 TDB_YESTERDAY=$(date +%Y-%m-%d --date '2 days ago')
 YESTERDAY1=$(date +%Y%m --date '1 days ago')

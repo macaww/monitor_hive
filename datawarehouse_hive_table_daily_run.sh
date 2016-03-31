@@ -1,7 +1,7 @@
 #!/bin/env bash
 
-HOMEDIR=/usr/local/zabbix/etc/datawarehouse_hive
-[ -d "$HOMEDIR" ] && cd $HOMEDIR || { mkdir -p $HOMEDIR;cd $HOMEDIR;}
+HOMEDIR=$(dirname $(readlink -f $0))
+cd $HOMEDIR
 source ./environment.sh
 HOUR=$(date +%H)
 LOG=datawarehouse_hive_table_daily_run.log
